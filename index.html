@@ -17,7 +17,7 @@
                 : `Ответ: ${Array.from({ length: n }, () => x).reduce((a, b) => a * b, 1)}`;
         }
 
-        // Функция нахождения НОД
+        // Функция НОД
         function gcd() {
             let [a, b] = [parseInt(document.getElementById('gcdA').value), parseInt(document.getElementById('gcdB').value)];
             document.getElementById('gcdResult').innerText = 
@@ -31,7 +31,7 @@
             return a;ф
         }
 
-        // Функция нахождения минимальной цифры
+        // Функция минимальной цифры
         function minDigit() {
             let x = parseInt(document.getElementById('minDigitX').value);
             document.getElementById('minDigitResult').innerText = 
